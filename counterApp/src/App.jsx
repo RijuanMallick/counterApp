@@ -7,7 +7,6 @@ const App = () => {
     <>
       <div>Counter App</div>
       <div>{count}</div>
-
       <div>
         <button onClick={() => setCount(count - 1)}>dec</button>
         <button onClick={() => setCount(0)}>reset</button>
